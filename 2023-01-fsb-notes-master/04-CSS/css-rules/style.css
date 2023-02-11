@@ -1,0 +1,116 @@
+.browser{
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+    height: 360px;
+    border: 2px solid lightslategrey;
+    border-radius: 8px;
+}
+.menu-bar{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* font-size: 200%; */
+    background-color: lightgrey;
+    height: 4em;
+    /* TODO: Fix clipping */
+    border-radius: 8px 8px 0 0; 
+}
+.title-bar{
+    display: flex;
+    background-color: lightslategrey;
+    width: 100%;
+    height: 50%;
+    /* TODO: Fix clipping */
+    border-radius: 8px 8px 0 0; 
+}
+.window-controls{
+    display: flex;
+    align-items: center;
+    margin-left:.5em
+}
+.window-controls>div{
+    width:1em;
+    height:1em;
+    border-radius: 1em;
+    margin: .1em
+    /* width:16px;
+    height:16px;
+    border-radius: 8px; */
+}
+.close{
+    display: flex;
+    background-color: crimson;
+}
+.minimize{
+    display: flex;
+    background-color: darkorange;
+}
+.fullscreen{
+    display: flex;
+    background-color: darkolivegreen;
+}
+.tab{
+    display: flex;
+    align-items: center;
+    background-color: lightgrey;
+    height: 100%;
+    margin-left:1em;
+    border-radius: 4px 4px 0 0;
+    padding-left: 1em;
+}
+.tab-text{
+    font-weight: bold;
+}
+
+.tab-close{
+    color: grey;
+    margin-left: .4em;
+    margin-right: .4em;
+}
+.navigation-bar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+.navigation-controls{
+    color: grey;
+    display: flex;
+    align-items: center;
+}
+.navigation-controls>div{
+    display: flex;
+    margin-left: .4em;
+    margin-right: .4em;
+}
+.url-bar{
+    font-size: .8em;
+    display: flex;
+    align-items: center;
+    background-color: lightslategrey;
+    width: 100%;
+    border-radius: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.lock{
+    font-size: .8em;
+    display: flex;
+    width: 2em;
+    margin: .2em .2em .4em;
+}
+.url-input{
+    color: white;
+    text-overflow: clip;
+    display: flex;
+    width: 100%;
+    padding-left: .2em;
+    border-left: 1px lightgrey dashed;
+    border-right: 1px lightgrey dashed;
+}
+.go{
+    display: flex;
+    margin-left: .2em;
+    margin-right:.2em;
+}

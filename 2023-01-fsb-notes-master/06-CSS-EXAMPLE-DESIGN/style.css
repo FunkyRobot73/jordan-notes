@@ -1,0 +1,102 @@
+ /* General - CSS Reset*/
+ body,
+ header,
+ nav,
+ div,
+ ul,
+ ol,
+ li,
+ a {
+     margin: 0;
+     padding: 0;
+ }
+
+ /* Header */
+ header {
+     background-color: #010205;
+     color: #EEEEEE;
+     font-family: sans-serif;
+     height: 4em;
+ }
+
+ .in-block{
+    display: inline-block;
+ }
+
+
+/* Header Left - Branding */
+.header-left {
+    margin-left: 10%;
+    width:33%;
+
+}
+.branding-img{
+    height: 4em;
+}
+
+/* Header Right - Navigation */
+
+.header-right{
+    margin-left: 10%;
+    width:33%;
+    vertical-align: top;
+    text-align: right;
+}
+
+
+.header-right a,
+.header-right a:link,
+.header-right a:visited,
+.header-right a:active {
+     color: #EEEEEE;
+     text-decoration: none;
+ }
+ .header-right a{
+    height: 4em;
+    line-height: 4em;
+    margin-left: .5em;
+    margin-right: .5em;
+ }
+
+ .header-right a{
+    transition: background-color .27s;
+ }
+ .header-right a:hover{
+    transition: background-color .27s;
+    background-color: #353a4a;
+ }
+
+ .card-container{
+    text-align: center;
+
+ }
+
+ .card{
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,.4);
+    /* vertical-align: top; */
+ }
+
+ .card-image{
+    height: 200px;
+    background-image: url(https://picsum.photos/300/200);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+ .card-title{
+    font-size: 1.25em;
+    margin: 10px;
+ }
+
+ .card-description{
+    font-size: 1em;
+    margin: 10px;
+ }

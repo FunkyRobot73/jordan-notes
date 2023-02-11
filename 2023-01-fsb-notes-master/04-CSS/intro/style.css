@@ -1,0 +1,22 @@
+p{
+    background-color: darkcyan;
+}
+.bold-and-big{
+    font-weight: bold;
+    font-size: 120%;
+}
+.bg-white{
+    background-color: white;
+}
+#return-to-top{
+    background-color: orangered;
+}
+#triangle{
+    width: 0;
+    height: 0;
+    /* background-color: green; */
+    border-top:200px lightcoral solid;
+    border-right: 100px transparent solid;
+    border-bottom: 0 lightblue solid;
+    border-left: 100px transparent solid;
+}

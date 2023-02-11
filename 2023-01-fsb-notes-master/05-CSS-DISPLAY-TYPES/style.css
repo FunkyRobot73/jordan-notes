@@ -1,0 +1,59 @@
+/* 3 Basic Display Types */
+/* - Block (Default) */
+/* - Inline (Default)*/
+/* - Inline-Block (a mix)*/
+
+/* Block */
+/*
+Takes all available width
+from parent (unless you
+set your own width, then it is
+absolute or relative to the
+parent element). Starts,
+and ends on new line
+
+Can set hight to absolute value
+*/
+h1, div, p, ul, ol, li{
+    background-color: lightslategray;
+    border: 2px solid lightsalmon;
+}
+
+/* Inline */
+/*
+Width is equal to largest child width
+(as skinny as possible)
+
+Height is equal to child's height
+(as short as posable)
+
+YOU CAN NEVER SET THE 
+WIDTH OR HEIGHT OF AN INLINE
+ITEM.
+
+*/
+a{
+    background-color: lightskyblue;
+}
+
+.width-200px{
+    width: 200px;
+
+    border: black 2px dotted;
+}
+
+.height-50px{
+    height: 50px;
+
+    border: brown 2px dashed
+}
+
+/* Inline-Block */
+.width-and-height{
+    display:inline-block;
+
+    width: 50px;
+    height: 50px;
+
+    border: blueviolet 2px double;
+}
